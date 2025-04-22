@@ -2,7 +2,6 @@
   "name": "figvar-to-w3c",
   "description": "Transforms Figma variables to W3C compliant design tokens",
   "version": "0.0.1",
-  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
