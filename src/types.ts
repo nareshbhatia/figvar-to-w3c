@@ -27,20 +27,20 @@ export enum DesignTokenValueConverter {
 }
 
 export interface DesignTokenTypeRule {
-  ruleType: 'DesignTokenTypeRule';
   outputType: string;
 }
 
 export interface DesignTokenNumberValueRule {
-  ruleType: 'DesignTokenNumberValueRule';
+  valueRuleType: 'DesignTokenNumberValueRule';
   applyToValues?: number[];
   valueConverter?: DesignTokenValueConverter;
   appendUnit?: string;
 }
 
-export type DesignTokenRule = DesignTokenNumberValueRule | DesignTokenTypeRule;
+export type DesignTokenValueRule = DesignTokenNumberValueRule;
 
 export interface DesignTokenGroupRule {
   applyToGroup: string;
-  tokenRules: DesignTokenRule[];
+  typeRule?: DesignTokenTypeRule;
+  valueRules?: DesignTokenValueRule[];
 }

@@ -99,7 +99,7 @@
       "$value": 300
     },
     "light": {
-      "$type": "number",
+      "$type": "fontWeight",
       "$value": "{Font Weight.300}"
     }
   },
