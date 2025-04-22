@@ -1,0 +1,152 @@
+{
+  "Color": {
+    "Slate": {
+      "1": {
+        "$type": "color",
+        "$value": "#111113"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "Neutral": {
+      "1": {
+        "$type": "color",
+        "$value": "{Color.Slate.1}"
+      },
+      "a1": {
+        "$type": "color",
+        "$value": "{Color.Slate.a1}"
+      },
+      "contrast": {
+        "$type": "color",
+        "$value": "{Color.Slate.contrast}"
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{Color.Neutral.1}"
+      }
+    }
+  },
+  "Overlay": {
+    "Black": {
+      "1": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0500)"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.1000)"
+      }
+    }
+  },
+  "Dimension": {
+    "0": {
+      "$type": "number",
+      "$value": 0
+    },
+    "1": {
+      "$type": "number",
+      "$value": 1
+    },
+    "2": {
+      "$type": "number",
+      "$value": 2
+    }
+  },
+  "Spacing": {
+    "1": {
+      "$type": "number",
+      "$value": "{Dimension.2}"
+    }
+  },
+  "Padding": {
+    "1": {
+      "$type": "number",
+      "$value": "{Spacing.1}"
+    }
+  },
+  "Font Family": {
+    "primitive-sans": {
+      "$type": "string",
+      "$value": "Fraunces"
+    },
+    "sans": {
+      "$type": "string",
+      "$value": "{Font Family.primitive-sans}"
+    }
+  },
+  "Font Size": {
+    "primitive-12": {
+      "$type": "number",
+      "$value": 12
+    },
+    "1": {
+      "$type": "number",
+      "$value": "{Font Size.primitive-12}"
+    }
+  },
+  "Font Weight": {
+    "300": {
+      "$type": "number",
+      "$value": 300
+    },
+    "light": {
+      "$type": "number",
+      "$value": "{Font Weight.300}"
+    }
+  },
+  "Line Height": {
+    "primitive-16": {
+      "$type": "number",
+      "$value": 16
+    },
+    "1": {
+      "$type": "number",
+      "$value": "{Line Height.primitive-16}"
+    }
+  },
+  "Radius": {
+    "primitive-0": {
+      "$type": "number",
+      "$value": 0
+    },
+    "primitive-1": {
+      "$type": "number",
+      "$value": 1
+    },
+    "primitive-2": {
+      "$type": "number",
+      "$value": 2
+    },
+    "primitive-full": {
+      "$type": "number",
+      "$value": 9999
+    },
+    "none": {
+      "$type": "number",
+      "$value": "{Radius.primitive-0}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{Radius.primitive-2}"
+    },
+    "full": {
+      "$type": "number",
+      "$value": "{Radius.primitive-full}"
+    }
+  },
+  "Letter Spacing": {
+    "1": {
+      "$type": "number",
+      "$value": 0.04
+    }
+  }
+}
