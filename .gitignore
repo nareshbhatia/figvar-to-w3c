@@ -37,3 +37,6 @@ yarn-error.log*
 
 # IDEs
 .idea
+
+# data
+data/output.tokens.json

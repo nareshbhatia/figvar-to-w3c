@@ -1,6 +1,12 @@
 # Figma Variables to W3C Tokens
 
-Transforms Figma variables to W3C compliant design tokens.
+This application transforms Figma variables to W3C compliant design tokens.
+
+It takes three arguments:
+
+1. Input file path (DesignTokensFile)
+2. Output file path (DesignTokensFile)
+3. Rules file path (DesignTokenGroupRule[])
 
 ## Prerequisites for development
 

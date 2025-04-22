@@ -1,0 +1,134 @@
+[
+  {
+    "applyToGroup": "Dimension",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Spacing",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Padding",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Font Size",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Line Height",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Radius",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "dimension"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "applyToValues": [0, 1, 9999],
+        "appendUnit": "px"
+      },
+      {
+        "ruleType": "DesignTokenNumberValueRule",
+        "valueConverter": "pxToRem",
+        "appendUnit": "rem"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Font Weight",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "fontWeight"
+      }
+    ]
+  },
+  {
+    "applyToGroup": "Font Family",
+    "tokenRules": [
+      {
+        "ruleType": "DesignTokenTypeRule",
+        "outputType": "fontFamily"
+      }
+    ]
+  }
+]

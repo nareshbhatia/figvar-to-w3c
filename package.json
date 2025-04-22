@@ -23,7 +23,7 @@
     "dev": "tsx watch src/index.ts",
     "fix": "run-s _lint:fix _format:fix",
     "lint": "run-s _lint _format",
-    "start": "node dist",
+    "start": "node dist data/input.tokens.json data/output.tokens.json data/rules.json",
     "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,jsx,ts,tsx,json,md}'",
     "_format:fix": "npm run _format -- --write",
     "_lint": "eslint '**/*.{js,jsx,ts,tsx}'",
